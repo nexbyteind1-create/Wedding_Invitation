@@ -1,9 +1,9 @@
 export const COUPLE = {
-  groom: "Gaddam Sai Dheekshit",
+  groom: "Gaddam Sai dheekshith",
   groomParents: "Gaddam Raji Reddy & Gaddam Sulochana",
   bride: "Kashan tejasvi",
   brideParents: "Kashan Venu Gopal & Kashan Sandhya Rani",
-  short: "Sai Dheekshit & tejasvi",
+  short: "Sai dheekshith & tejasvi",
 };
 
 export const WEDDING = {
@@ -16,7 +16,7 @@ export const WEDDING = {
   maps: "https://share.google/GqCMpBFAQfBC2S1Jc",
   directions: "https://www.google.com/maps/dir/?api=1&destination=Zoroastrian+Club+Secunderabad",
   calendar:
-    "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sai+Dheekshit+%26+tejasvi+Wedding&dates=20261126T035900Z/20261126T073000Z&location=Zoroastrian+Club,+Secunderabad&details=Pheras+at+9:29+AM",
+    "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sai+dheekshith+%26+tejasvi+Wedding&dates=20261126T035900Z/20261126T073000Z&location=Zoroastrian+Club,+Secunderabad&details=Pheras+at+9:29+AM",
 };
 
 export const EVENTS = [

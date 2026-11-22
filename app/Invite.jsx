@@ -415,7 +415,7 @@ export default function Invite() {
                 <div className="coverFace">
                   <img src="/ganesh.svg" alt="Ganesh ji" className="emblem" />
                   <p className="covnames">
-                    Sai Dheekshit
+                    Sai dheekshith
                     <br />
                     <span>&amp;</span>
                     <br />
