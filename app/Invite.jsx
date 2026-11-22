@@ -230,9 +230,9 @@ function SaveTheDate() {
   );
 }
 
-function MapCard() {
+function MapCard({ place = WEDDING }) {
   return (
-    <a className="mapcard bi" href={WEDDING.maps} target="_blank" rel="noreferrer" aria-label="Open venue in Google Maps">
+    <a className="mapcard bi" href={place.maps} target="_blank" rel="noreferrer" aria-label={`Open ${place.venue} in Google Maps`}>
       <svg viewBox="0 0 320 200" aria-hidden>
         <rect width="320" height="200" fill="#f5ead9" />
         <path d="M0 150 C80 120 120 180 200 150 S300 110 320 130 V200 H0Z" fill="#cfe2e4" />
@@ -258,7 +258,7 @@ function MapCard() {
         <ellipse className="pinshadow" cx="220" cy="66" rx="8" ry="3" fill="#000" opacity=".2" />
       </svg>
       <span className="maptag">
-        <b>{WEDDING.venue}</b> · tap to open map
+        <b>{place.venue}</b> · tap to open map
       </span>
     </a>
   );
@@ -419,7 +419,7 @@ export default function Invite() {
                     <br />
                     <span>&amp;</span>
                     <br />
-                    Tejaswi
+                    tejasvi
                   </p>
                   <p className="covdate">26 · 11 · 2026</p>
                 </div>
@@ -554,6 +554,7 @@ export default function Invite() {
               {RECEPTION.day}, {RECEPTION.date}
             </p>
             <p className="rtime">{RECEPTION.time} onwards</p>
+            <p className="rtime">{RECEPTION.venue}, Mallapur</p>
           </div>
         </section>
 
@@ -568,6 +569,13 @@ export default function Invite() {
             <button className="btn ghost" onClick={copyAddress}>
               Copy address
             </button>
+          </div>
+          <p className="sub bi">Reception · {RECEPTION.venue}</p>
+          <MapCard place={RECEPTION} />
+          <div className="btns bi">
+            <a className="btn" href={RECEPTION.directions} target="_blank" rel="noreferrer">
+              Get directions
+            </a>
           </div>
         </section>
 

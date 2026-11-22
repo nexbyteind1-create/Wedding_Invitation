@@ -8,9 +8,9 @@ const host = process.env.VERCEL_PROJECT_PRODUCTION_URL;
 
 export const metadata = {
   metadataBase: new URL(host ? `https://${host}` : "http://localhost:3000"),
-  title: "Sai Dheekshit & Tejaswi · Wedding",
-  description: "You are invited to the wedding of Gaddam Sai Dheekshit & Kashan Tejaswi · 26 November 2026",
-  openGraph: { title: "Sai Dheekshit & Tejaswi", description: "Wedding · 26 November 2026 · Zoroastrian Club", images: ["/photos/1.jpg"] },
+  title: "Sai Dheekshit & tejasvi · Wedding",
+  description: "You are invited to the wedding of Gaddam Sai Dheekshit & Kashan tejasvi · 26 November 2026",
+  openGraph: { title: "Sai Dheekshit & tejasvi", description: "Wedding · 26 November 2026 · Zoroastrian Club", images: ["/photos/1.jpg"] },
 };
 
 export const viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#f6e4e1" };
