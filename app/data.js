@@ -10,18 +10,18 @@ export const WEDDING = {
   iso: "2026-11-26T09:29:00+05:30",
   day: "Thursday",
   date: "26 November 2026",
-  time: "Pheras at 9:29 AM",
+  time: " at 9:29 AM",
   venue: "Zoroastrian Club",
   address: "Zoroastrian Club, Secunderabad",
   maps: "https://share.google/GqCMpBFAQfBC2S1Jc",
   directions: "https://www.google.com/maps/dir/?api=1&destination=Zoroastrian+Club+Secunderabad",
   calendar:
-    "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sai+dheekshith+%26+tejasvi+Wedding&dates=20261126T035900Z/20261126T073000Z&location=Zoroastrian+Club,+Secunderabad&details=Pheras+at+9:29+AM",
+    "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sai+dheekshith+%26+tejasvi+Wedding&dates=20261126T035900Z/20261126T073000Z&location=Zoroastrian+Club,+Secunderabad&details=+at+9:29+AM",
 };
 
 export const EVENTS = [
   { key: "haldi", name: "Haldi", icon: "🌼", day: "Wednesday", date: "25 November 2026", dress: "Wear yellow", swatch: "#f2c230" },
-  { key: "pheras", name: "Baraat & Pheras", icon: "🔥", day: "Thursday", date: "26 November 2026", time: "Pheras at 9:29 AM" },
+  { key: "", name: "Baraat  ", icon: "🔥", day: "Thursday", date: "26 November 2026", time: " at 9:29 AM" },
 ];
 
 export const RECEPTION = {

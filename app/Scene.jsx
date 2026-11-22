@@ -56,10 +56,10 @@ export default function Scene({ kind }) {
             <path d="M96 150 q12 -8 24 0 q12 -8 24 0 q12 -8 24 0 q12 -8 24 0" stroke="#e0a800" strokeWidth="3" fill="none" />
           </>
         )}
-        {kind === "pheras" && (
+        {kind === "" && (
           <>
             <rect width="300" height="190" fill="#7a1a24" />
-            <rect width="300" height="190" fill="url(#gl-pheras)" />
+            <rect width="300" height="190" fill="url(#gl-)" />
             <path d="M40 60 Q150 -10 260 60 Z" fill="#d4a94f" />
             <path d="M30 60 H270 V68 H30Z" fill="#f0d48a" />
             {[50, 110, 190, 250].map((x) => (
