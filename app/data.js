@@ -21,7 +21,8 @@ export const WEDDING = {
 
 export const EVENTS = [
   { key: "haldi", name: "Haldi", icon: "🌼", day: "Wednesday", date: "25 November 2026", dress: "Wear yellow", swatch: "#f2c230" },
-  { key: "", name: "Baraat  ", icon: "🔥", day: "Thursday", date: "26 November 2026", },
+  { key: "", name: "Marriage", icon: "🔥", day: "Thursday", date: "26 November 2026", time: "9:29 AM", place: "Zoroastrian Club, Secunderabad" },
+  { key: "sangeet", name: "Reception", icon: "✨", day: "Sunday", date: "29 November 2026", time: "7:00 PM onwards", place: "Swagat Convention, Mallapur" },
 ];
 
 export const RECEPTION = {
