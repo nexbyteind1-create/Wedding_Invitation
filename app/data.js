@@ -21,7 +21,7 @@ export const WEDDING = {
 
 export const EVENTS = [
   { key: "haldi", name: "Haldi", icon: "🌼", day: "Wednesday", date: "25 November 2026", dress: "Wear yellow", swatch: "#f2c230" },
-  { key: "", name: "Baraat  ", icon: "🔥", day: "Thursday", date: "26 November 2026", time: " at 9:29 AM" },
+  { key: "", name: "Baraat  ", icon: "🔥", day: "Thursday", date: "26 November 2026", },
 ];
 
 export const RECEPTION = {
