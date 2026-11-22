@@ -560,7 +560,8 @@ export default function Invite() {
 
         <section data-io>
           <h2 className="bi">Location</h2>
-          <p className="sub bi">{WEDDING.venue}</p>
+          <h3 className="maptitle bi">Wedding Venue</h3>
+          <p className="sub bi">{WEDDING.date} · {WEDDING.venue}</p>
           <MapCard />
           <div className="btns bi">
             <a className="btn" href={WEDDING.directions} target="_blank" rel="noreferrer">
@@ -570,7 +571,8 @@ export default function Invite() {
               Copy address
             </button>
           </div>
-          <p className="sub bi">Reception · {RECEPTION.venue}</p>
+          <h3 className="maptitle second bi">Reception Venue</h3>
+          <p className="sub bi">{RECEPTION.date} · {RECEPTION.venue}</p>
           <MapCard place={RECEPTION} />
           <div className="btns bi">
             <a className="btn" href={RECEPTION.directions} target="_blank" rel="noreferrer">
